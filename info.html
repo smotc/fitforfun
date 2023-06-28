@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Fit for Fun Fitness Club</title>
+    <title>Fit for Fun Fitness Club Information Request</title>
     <link rel="stylesheet" href="styles.css">
     <!-- Fit for Fun Fitness Club -->
     <!-- Author: Shannon McKaig Buffington -->
@@ -30,116 +30,115 @@
 
     <h2>More Information</h2>
     <div class="container">
-  
-      <form method="get" action="thankyou.html">
-  
-        <fieldset>
-          <legend>Contact Information</legend>
-          <label for="fname">
-            First Name:
-            <input autofocus type="text" name="fname" id="fname" required placeholder="First Name">
-          </label>
-          <label for="lname">
-            Last Name:
-            <input type="text" name="lname" id="lname" required placeholder="Lasts Name">
-          </label>
-          <label for="email">
-            Email:
-            <input type="email" name="email" id="email" required placeholder="Email">
-          </label>
-          <label for="phone">
-            Phone:
-            <input type="phone" name="phone" id="phone" required placeholder="Phone">
-          </label>
-          <select name="contactvia" id="contactvia">
-            <option value="">Choose a Contact Method</option>
-            <option value="Phone">Call</option>
-            <option value="Email">Email</option>
-            <option value="Text">Text</option>
-          </select>
-        </fieldset>
-  
 
-        <fieldset>
-            <legend>Classes You Want to Know More About</legend>
-    
-            <input type="checkbox" id="class1" name="class1" value="Cross Training">
-            <label for="class1">Cross Training</label>
-            <input type="checkbox" id="class2" name="class2" value="Sprint">
-            <label for="class2">Sprint</label>
-            <input type="checkbox" id="class3" name="class3" value="Spin">
-            <label for="class3">Spin</label>
-            <input type="checkbox" id="class4" name="class4" value="Body Pump">
-            <label for="class4">Body Pump</label>
-            <input type="checkbox" id="class5" name="class5" value="Body Combat">
-            <label for="class5">Body Combat</label>
-            <input type="checkbox" id="class6" name="class6" value="Step Interval">
-            <label for="class6">Step Interval</label>
-            <input type="checkbox" id="class7" name="class7" value="Advanced Cross Training">
-            <label for="class7">Advanced Cross Training</label>
-            <input type="checkbox" id="class8" name="class8" value="MixxedFIT">
-            <label for="class8">MixxedFIT</label>
-            <input type="checkbox" id="class9" name="class9" value="Zumba">
-            <label for="class9">Zumba</label>
-    
-    
-          </fieldset>
+        <form method="get" action="thankyou.html">
+
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="fname">
+                    First Name:
+                    <input autofocus type="text" name="fname" id="fname" required placeholder="First Name">
+                </label>
+                <label for="lname">
+                    Last Name:
+                    <input type="text" name="lname" id="lname" required placeholder="Lasts Name">
+                </label>
+                <label for="email">
+                    Email:
+                    <input type="email" name="email" id="email" required placeholder="Email">
+                </label>
+                <label for="phone">
+                    Phone:
+                    <input type="number" name="phone" id="phone" placeholder="Phone">
+                </label>
+                <select name="contactvia" id="contactvia">
+                    <option value="">Choose a Contact Method</option>
+                    <option value="Phone">Call</option>
+                    <option value="Email">Email</option>
+                    <option value="Text">Text</option>
+                </select>
+            </fieldset>
 
 
-        <fieldset>
-          <legend>Request a Free Trial Class</legend>
-  
-          <select name="trialclass" id="trialclass">
-            <option value="">Select a Class</option>
-            <option value="Cross Training">Cross Training</option>
-            <option value="Sprint">Sprint</option>
-            <option value="Spin">Spin</option>
-            <option value="Body Pump">Body Pump</option>
-            <option value="Body Combat">Body Combat</option>
-            <option value="Step Interval">Step Interval</option>
-            <option value="Advanced Cross Training">Advanced Cross Training</option>
-            <option value="MixxedFIT">MixxedFIT</option>
-            <option value="Zumba">Zumba</option>
+            <fieldset>
+                <legend>Classes You Want to Know More About</legend>
+
+                <input type="checkbox" id="class1" name="class1" value="Cross Training">
+                <label for="class1">Cross Training</label>
+                <input type="checkbox" id="class2" name="class2" value="Sprint">
+                <label for="class2">Sprint</label>
+                <input type="checkbox" id="class3" name="class3" value="Spin">
+                <label for="class3">Spin</label>
+                <input type="checkbox" id="class4" name="class4" value="Body Pump">
+                <label for="class4">Body Pump</label>
+                <input type="checkbox" id="class5" name="class5" value="Body Combat">
+                <label for="class5">Body Combat</label>
+                <input type="checkbox" id="class6" name="class6" value="Step Interval">
+                <label for="class6">Step Interval</label>
+                <input type="checkbox" id="class7" name="class7" value="Advanced Cross Training">
+                <label for="class7">Advanced Cross Training</label>
+                <input type="checkbox" id="class8" name="class8" value="MixxedFIT">
+                <label for="class8">MixxedFIT</label>
+                <input type="checkbox" id="class9" name="class9" value="Zumba">
+                <label for="class9">Zumba</label>
 
 
-          </select>
-  
-  
-          <select name="month" id="month">
-            <option value="jan">January</option>
-            <option value="feb">February</option>
-            <option value="mar">March</option>
-            <option value="apr">April</option>
-            <option value="may">May</option>
-            <option value="jun">June</option>
-            <option value="jul">July</option>
-            <option value="aug">August</option>
-            <option value="sep">September</option>
-            <option value="oct">October</option>
-            <option value="nov">November</option>
-            <option value="dec">December</option>
-          </select>
-  
-          
-            <input type="number" id="day" name="day"
-            min="1" max="31">
-       
-  
-          <input type="radio" id="AM" name="time" value="AM">
-          <label for="AM">AM</label>
-          <input type="radio" id="PM" name="time" value="PM">
-          <label for="PM">PM</label>
-  
-        </fieldset>
-       
-        <fieldset>
-          <legend>Questions</legend>
-          <textarea name="info" id="info" cols="60" rows="5" placeholder="Ask your questions here"></textarea>
-  
-        </fieldset>
-        <input class="submit" type="submit" value="submit">
-  
-      </form>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Request a Free Trial Class</legend>
+
+                <select name="trialclass" id="trialclass">
+                    <option value="">Select a Class</option>
+                    <option value="Cross Training">Cross Training</option>
+                    <option value="Sprint">Sprint</option>
+                    <option value="Spin">Spin</option>
+                    <option value="Body Pump">Body Pump</option>
+                    <option value="Body Combat">Body Combat</option>
+                    <option value="Step Interval">Step Interval</option>
+                    <option value="Advanced Cross Training">Advanced Cross Training</option>
+                    <option value="MixxedFIT">MixxedFIT</option>
+                    <option value="Zumba">Zumba</option>
+
+
+                </select>
+
+
+                <select name="month" id="month">
+                    <option value="jan">January</option>
+                    <option value="feb">February</option>
+                    <option value="mar">March</option>
+                    <option value="apr">April</option>
+                    <option value="may">May</option>
+                    <option value="jun">June</option>
+                    <option value="jul">July</option>
+                    <option value="aug">August</option>
+                    <option value="sep">September</option>
+                    <option value="oct">October</option>
+                    <option value="nov">November</option>
+                    <option value="dec">December</option>
+                </select>
+
+
+                <input type="number" id="day" name="day" min="1" max="31">
+
+
+                <input type="radio" id="AM" name="time" value="AM">
+                <label for="AM">AM</label>
+                <input type="radio" id="PM" name="time" value="PM">
+                <label for="PM">PM</label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Questions</legend>
+                <textarea name="info" id="info" cols="60" rows="5" placeholder="Ask your questions here"></textarea>
+
+            </fieldset>
+            <input class="submit" type="submit" value="submit">
+
+        </form>
     </div>
 
 
